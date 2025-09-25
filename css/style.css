@@ -97,6 +97,7 @@ textarea.form-input {
 }
 
 .box-input {
+    margin-top: 35px;
     margin-bottom: 35px;
 }
 
@@ -121,6 +122,7 @@ fieldset {
     display: flex;
     flex-wrap: wrap; /* Permite que os itens quebrem a linha */
     gap: 15px 30px; /* Espaço entre os itens */
+    margin-top: 15px;
 }
 
 .optional-list li {
@@ -138,6 +140,7 @@ fieldset {
     text-transform: uppercase;
     transition: 0.5s;
     margin-top: 20px; /* Adiciona espaço acima do botão */
+    font-weight: bold;
 }
 
 .btn-submit:hover {
